@@ -10,7 +10,7 @@ console.log(Math.min(0, 10));
 console.log(Math.min(0, -10));
 
 // Recursion
-function isEven(number) {
+ isEven = function(number) {
     if (number == 0)
         return true;
     else if (number == 1)
