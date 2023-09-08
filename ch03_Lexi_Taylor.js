@@ -23,14 +23,8 @@ console.log(isEven(-1));
 
 // Bean Counting
 function countBs(string) {
-    let counted = 0;
-    for (let i = 0; i < string.length; i++) {
-        if(string[i] == "B") {
-            counted ++;
-        }
-    }
-    return counted;
-}
+    return countChar(string, "B");
+  }
 function countChar(string, char) {
     let counted = 0;
     for (let i = 0; i < string.length; i++) {
@@ -42,5 +36,4 @@ function countChar(string, char) {
 }
 console.log(countBs("BBC"));
 console.log(countChar("kakkerlak", "k"));
-
 
