@@ -9,7 +9,7 @@ while (line.length <= 7) {
 }
 
 //Fizz Buzz
-for (let number = 1; number <= 100; number++) {
+for (let number = 1; number <= 100; number+= 1) {
     let output = "";
     if (number % 3 == 0) output += "Fizz";
     if (number % 5 == 0) output += "Buzz";
@@ -19,8 +19,8 @@ for (let number = 1; number <= 100; number++) {
 //Chessboard
 let size = 8;
 let chessboard = "";
-for (let y = 0; y < size; y++) {
-    for (let x = 0; x < size; x++) {
+for (let y = 0; y < size; y+= 1) {
+    for (let x = 0; x < size; x+= 1) {
         if ((x + y) % 2 == 0) {
             chessboard += " ";
         } else {
