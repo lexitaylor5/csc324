@@ -19,7 +19,7 @@ function range(start, end, step = start <= end ? 1 : -1) {
   console.log(sum(range(1, 10)));
 
 //Reversing an Array
-//https://www.freecodecamp.org/news/how-to-reverse-an-array-in-javascript-js-reverse-function/ website I used for reversing array//
+//https://www.freecodecamp.org/news/how-to-reverse-an-array-in-javascript-js-reverse-function/ website I used to learn how to reverse array//
 function reverseArray(array) {
     return [...array].reverse();
   }
