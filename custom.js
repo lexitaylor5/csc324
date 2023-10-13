@@ -37,14 +37,3 @@
  // complete with code to select and populate the table
 
 
-for(let i in article.length){
-  let table = document.getElementById('bhangra');
-  let row = table.insertRow(i+1);
-  let cell1 = row.insertCell(0);
-  let cell2 = row.insertCell(1);
-  let cell3 = row.insertCell(2);
-
-  cell1.innerHTML = artists[i].name;
-  cell2.innerHTML = artists[i].birthYear;
-  cell1.innerHTML = artists[i].link;
-}
